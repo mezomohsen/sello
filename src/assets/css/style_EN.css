@@ -1,0 +1,96 @@
+body{
+    direction: ltr !important;
+}
+.media{
+    direction: ltr!important;
+}
+.navbar-light .navbar-brand .logo {
+    top: -83px;
+    left: -60px;
+    transform: rotate(-25deg);
+}
+.navbar-light .navbar-brand img {
+    transform: rotate(25deg);
+}
+.input-group-text{
+    padding: .375rem .5rem;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    left: 10px !important;
+    right: inherit;
+}
+.owl-carousel .owl-nav button.owl-next{
+    right:10px !important;
+    left: inherit;
+}
+.new-product .link-pls{
+    right: 0;
+    left: inherit;
+}
+.testmonials .card::after{
+    left: 22px;
+    right: inherit;
+}
+.download-app .down-rgt {
+    text-align: right;
+}
+.download-app .down-lft{
+    text-align: left;
+}
+.navbar .navbar-collapse .dropdown-menu{
+    right: 0;
+    left: inherit;
+}
+.categories .owl-carousel .owl-nav button.owl-prev{
+    left: 20px;
+    right: inherit;
+}
+
+.categories .owl-carousel .owl-nav button.owl-next{
+    right: 20px;
+    left: inherit;
+}
+.categories .btn-warning{
+    right: 0;
+    left: inherit;
+}
+.navbar .navbar-collapse .notification .media .media-body span{
+    right: 6px;
+    left: inherit;
+}
+.pro-details .owl-carousel .owl-nav button.owl-next{
+    right: 10px;
+    left: inherit;
+}
+.pro-details .owl-carousel .owl-nav button.owl-prev{
+    left: 10px;
+    right: inherit;
+}
+.pro-details .info-details .hvr-icon-pulse{
+    right: 12px;
+    left: inherit;
+}
+.pro-details .info-details span {
+    margin: -6px 0 0 7px;
+}
+.pro-details .info-details .color-gold{
+    margin-left: 10px;
+}
+.pro-details .info-details button i {
+    margin-right: 7px;
+}
+.more-pro-detais .describte ul {
+    list-style: inherit;
+    margin-left: 40px;
+}
+.edit-pro .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-image: linear-gradient(to right,#F5B94E, #EFCA87);
+}
+@media (max-width: 575.98px){
+    .download-app .down-rgt {
+         text-align: center; 
+    }
+    .download-app .down-lft {
+        text-align: center;
+    }
+}

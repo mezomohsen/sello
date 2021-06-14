@@ -1,0 +1,11 @@
+.list{
+    background-color: #222;
+    color: #fff;
+    padding: 7px 10px;
+    margin: 5px auto;
+    width: 400px;
+}
+
+i{
+    cursor: pointer;
+}
